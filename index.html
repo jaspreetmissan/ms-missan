@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meet Ms. Missan · 4th Grade · Ocean Knoll Elementary</title>
+<meta name="description" content="Welcome to Ms. Missan's 4th grade class at Ocean Knoll Elementary, Home of the Dolphins.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="config.js"></script>
+</head>
+<body>
+<a class="skip" href="#about">Skip to content</a>
+<header class="nav" id="top">
+  <a class="brand" href="#hero">🐬 Ms. Missan</a>
+  <button class="menu-btn" aria-expanded="false" aria-controls="navlinks">Menu</button>
+  <nav id="navlinks" aria-label="Sections">
+    <a href="#about">About</a><a href="#contact">Contact</a><a href="#communication">Updates</a>
+    <a href="#classroom">Classroom</a><a href="#bell">Bell Schedule</a><a href="#calendar">Calendar</a><a href="#volunteer">Volunteer</a>
+  </nav>
+</header>
+
+<main>
+<section id="hero" class="hero">
+  <div class="hero-text">
+    <p class="kicker">4th Grade · Ocean Knoll Elementary · Home of the Dolphins</p>
+    <h1>Meet the Teacher!</h1>
+    <p class="lead">Hi families! I'm <strong>Ms. Missan</strong>. Press play to say hello.</p>
+  </div>
+  <div class="video-wrap">
+    <span class="badge">▶ Meet the Teacher</span>
+    <video controls playsinline preload="metadata" poster="assets/poster.jpg">
+      <source src="assets/meet_the_teacher_web.mp4" type="video/mp4">
+      Your browser can't play this video.
+    </video>
+  </div>
+</section>
+
+<section id="about" class="card">
+  <h2><span aria-hidden="true">👋</span> About Me</h2>
+  <p>I'm thrilled to be joining Ocean Knoll as your child's 4th grade teacher for the rest of the school year! I was born and raised right here in San Diego, and I earned my Multiple Subject Teaching Credential from Cal State San Marcos.</p>
+  <p>For the past two years I've been a substitute teacher with the North County Consortium, and I've subbed at Ocean Knoll a few times, so this school already feels like home.</p>
+  <ul class="facts">
+    <li><span>💃</span><b>Bollywood dance</b> I've loved it since 6th grade</li>
+    <li><span>🏖️</span><b>Beach picnics</b> I love the beach (the water, not so much!)</li>
+    <li><span>👨‍👩‍👧</span><b>Family time</b> my favorite way to recharge</li>
+    <li><span>📚</span><b>Reading</b> favorite series: <i>The Hunger Games</i></li>
+  </ul>
+  <p>I'm looking forward to connecting with you every week and getting to know each of my students.</p>
+</section>
+
+<section id="contact" class="card">
+  <h2><span aria-hidden="true">✉️</span> How to Reach Me</h2>
+  <p class="email-first"><b>Email is the best way to reach me.</b> <span id="teacher-email">[school email]</span></p>
+  <div id="form-notice" class="notice" hidden>The contact form isn't switched on yet. Please email me directly for now.</div>
+  <form id="contact-form" novalidate>
+    <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <label for="f-email">Your email</label>
+    <input id="f-email" name="email" type="email" required autocomplete="email" aria-describedby="e-email">
+    <p class="err" id="e-email" aria-live="polite"></p>
+    <label for="f-subject">Subject</label>
+    <input id="f-subject" name="subject" type="text" required maxlength="150" aria-describedby="e-subject">
+    <p class="err" id="e-subject" aria-live="polite"></p>
+    <label for="f-message">Message</label>
+    <textarea id="f-message" name="message" rows="5" required aria-describedby="e-message"></textarea>
+    <p class="err" id="e-message" aria-live="polite"></p>
+    <button type="submit" class="btn">Send message</button>
+    <p id="form-status" class="status" role="status" aria-live="polite"></p>
+  </form>
+</section>
+
+<section id="communication" class="card">
+  <h2><span aria-hidden="true">📱</span> Class Communication</h2>
+  <div class="grid2">
+    <div class="sub">
+      <h3>Rooms: messages from me</h3>
+      <p>I use <b>Rooms</b> for class messages. It's free and built into the <b>EUSD app</b> (also works on the web).</p>
+      <ol>
+        <li>Open the invite text/email or the EUSD app and tap <b>Rooms</b>.</li>
+        <li>Enter the phone or email the school has on file.</li>
+        <li>Choose <b>"Sign in with code"</b> and enter the code you receive.</li>
+        <li>Turn on notifications so you never miss a message.</li>
+      </ol>
+      <p class="links"><a href="https://eusd.knowledgeowl.com/help/rooms-support-site-for-parents" target="_blank" rel="noopener">EUSD Rooms help</a> · <a href="https://info.apptegy.com/for-parents-and-guardians" target="_blank" rel="noopener">Parent FAQ</a> · <a href="https://content.myconnectsuite.com/api/documents/aacff5041737403aa4d4b5aff955e1c2" target="_blank" rel="noopener">Quick start</a></p>
+    </div>
+    <div class="sub">
+      <h3><span class="blast-name">Blackboard Connect</span>: school texts &amp; email blasts</h3>
+      <p>District-wide texts start with <b>"EUSD:"</b>. Save these numbers:</p>
+      <ul class="plain">
+        <li>Regular updates: <a href="tel:+17609032335">760-903-2335</a></li>
+        <li>Emergencies: <a href="tel:+17605576031">760-557-6031</a> (sent even if you opt out)</li>
+        <li>District emails come from <b>EUSDCommunications@eusd.net</b></li>
+      </ul>
+      <p>Keep your phone and email current in the <a href="https://encinitas.powerschool.com/public/" target="_blank" rel="noopener">PowerSchool Parent Portal</a> so you get every message.</p>
+    </div>
+  </div>
+</section>
+
+<section id="classroom" class="card">
+  <h2><span aria-hidden="true">🎒</span> Google Classroom</h2>
+  <p>Students find assignments and announcements in Google Classroom.</p>
+  <p><b>Families:</b> once I invite your email as a guardian, you can choose daily or weekly <b>email summaries</b> of upcoming and missing work. (Guardians see summaries, not the class stream.) <a href="https://support.google.com/edu/classroom/answer/6388136" target="_blank" rel="noopener">How guardian summaries work</a></p>
+  <a id="classroom-btn" class="btn" href="#" aria-disabled="true">Classroom link coming soon</a>
+</section>
+
+<section id="bell" class="card">
+  <h2><span aria-hidden="true">🔔</span> Bell Schedule</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th></th><th>Mon–Thu</th><th>Friday</th></tr></thead>
+    <tbody>
+      <tr><th>School day</th><td>8:00 am – 2:20 pm</td><td>8:00 am – 12:45 pm</td></tr>
+      <tr><th>4th grade recess</th><td>10:30 – 10:45 am</td><td>10:30 – 10:45 am</td></tr>
+      <tr><th>4th grade lunch + recess</th><td>11:55 am – 12:35 pm</td><td>11:50 am – 12:30 pm</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">Every Friday is early release. <b>Minimum days (12:45 pm dismissal):</b> Conference Weeks Mar 15–19, 2027 and the last day of school, Jun 9, 2027.</p>
+</section>
+
+<section id="calendar" class="card">
+  <h2><span aria-hidden="true">📅</span> School Calendar</h2>
+  <div id="cal-embed"></div>
+  <ul id="cal-list" class="dates">
+    <li class="past"><b>Aug 11</b> First day of school</li>
+    <li class="past"><b>Sep 7</b> Labor Day (no school)</li>
+    <li class="past"><b>Oct 19–23</b> Conference Week (12:45 dismissal)</li>
+    <li class="past"><b>Oct 26–30</b> Fall Break</li>
+    <li><b>Nov 11</b> Veterans Day (no school)</li>
+    <li><b>Nov 23–27</b> Thanksgiving Break</li>
+    <li><b>Dec 21 – Jan 1</b> Winter Break</li>
+    <li><b>Jan 15</b> 1st semester report cards</li>
+    <li><b>Jan 18</b> Martin Luther King Jr. Day (no school)</li>
+    <li><b>Feb 15–16</b> Presidents' Day (no school)</li>
+    <li><b>Mar 15–19</b> Conference Week (12:45 dismissal)</li>
+    <li><b>Mar 22 – Apr 2</b> Spring Break</li>
+    <li><b>May 31</b> Memorial Day (no school)</li>
+    <li><b>Jun 9</b> Last day of school! (12:45 dismissal) · Promotions · Report cards</li>
+  </ul>
+  <p class="links"><a href="calendar/eusd_2026-27.ics" download>Add these dates to your calendar (.ics)</a></p>
+</section>
+
+<section id="volunteer" class="card">
+  <h2><span aria-hidden="true">🙋</span> Volunteer Sign-Up</h2>
+  <p>Our class loves helping hands! Sign up to volunteer for events, projects, and classroom help.</p>
+  <a id="volunteer-btn" class="btn coral" href="#" aria-disabled="true">Sign-up opening soon</a>
+  <div id="volunteer-embed"></div>
+</section>
+</main>
+<footer><p>🐬 Ms. Missan · 4th Grade · Ocean Knoll Elementary · Home of the Dolphins</p><a href="#hero">Back to top ↑</a></footer>
+<script src="js/main.js"></script>
+</body></html>
